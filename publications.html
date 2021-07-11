@@ -1,12 +1,95 @@
 ---
 layout: page
 title: Publications
-subtitle: Includes Works in Progress
 nav_order: 5
 ---
 
-<ul class="publications">
-  <li class="publication">
-    
+<ul class="pub-nav">
+  <li>
+    <a href="#books">Books</a>
+  </li>
+  <li>
+    <a href="#catalogues">Exhibition Catalogues</a>
+  </li>
+  <li>
+    <a href="#articles">Articles</a>
+  </li>
+  <li>
+    <a href="#chapters">Book Chapters</a>
+  </li>
+  <li>
+    <a href="#reviews">Exhibition and Book Reviews</a>
+  </li>
+  <li>
+    <a href="#encyclopedias">Encyclopedias</a>
   </li>
 </ul>
+
+<h2 id="books">Books</h2>
+<ul class="publications">
+  {%- for item in site.data.publications.books -%}
+    <li class="publication">
+      {{ item }}
+    </li>
+  {%- endfor -%}
+</ul>
+
+<h2 id="catalogues">Exhibition Catalogues</h2>
+<ul class="publications">
+  {%- for item in site.data.publications.exhibition-catalogues -%}
+    <li class="publication">
+      {{ item }}
+    </li>
+  {%- endfor -%}
+</ul>
+
+<h2 id="articles">Articles</h2>
+<ul class="publications">
+  {%- for item in site.data.publications.articles -%}
+    <li class="publication">
+      {{ item }}
+    </li>
+  {%- endfor -%}
+</ul>
+
+<h2 id="chapters">Book Chapters</h2>
+<ul class="publications">
+  {%- for item in site.data.publications.book-chapters -%}
+    <li class="publication">
+      {{ item }}
+    </li>
+  {%- endfor -%}
+</ul>
+
+<h2 id="reviews">Exhibition and Book Reviews</h2>
+<ul class="publications">
+  {%- for item in site.data.publications.reviews -%}
+    <li class="publication">
+      {{ item }}
+    </li>
+  {%- endfor -%}
+</ul>
+
+<h2 id="encyclopedias">Encyclopedias</h2>
+<ul class="publications">
+  {%- for item in site.data.publications.encyclopedias -%}
+    <li class="publication">
+      {{ item }}
+    </li>
+  {%- endfor -%}
+</ul>
+
+<a href="#" class="back-top">
+  <svg id="arrow-up" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12,0 L24,12 L16,12 L16,24 L8,24 L8,12 L0,12 Z"></path>
+  </svg>
+  <p>Back to Top</p>
+</a>
+
+<script>
+  const topBtn = document.querySelector(".back-top");
+  window.addEventListener("scroll", () => {
+    if(window.scrollY > 500) topBtn.style.transform = "none";
+    else topBtn.style.transform = "";
+  });
+</script>
