@@ -6,8 +6,14 @@
   text-align: center;
   background-color: $bg-dark;
   color: $text-light;
+  padding: 1rem;
+  gap: 0.25rem;
 
-  h4 {
-    font-weight: 300;
+  p {
+    margin: 0;
+  }
+  
+  a {
+    color: inherit;
   }
 }
