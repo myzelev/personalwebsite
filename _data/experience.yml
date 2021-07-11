@@ -1,0 +1,188 @@
+items:
+  - year: 2016-present
+    title: Assistant Professor
+    location: SUNY Geneseo
+  - year: 2014-2016
+    title: Visiting Assistant Professor
+    location: SUNY Geneseo
+  - year: 2013-2014
+    title: Senior Visiting Lecturer
+    location: Bloomsburg University of Pennsylvania
+  - year: 2008-2013
+    title: Assistant Professor
+    location: CLA, University of Guelph
+  - year: 2006-2008
+    title: Instructor
+    location: OCAD University
+  - year: 2008
+    title: Instructor
+    location: University of Waterloo
+  - year: 2007-2008
+    title: Consultant
+    location: "National Exhibition Looking for Anne: Tracing Visual Culture and L.M. Montgomery’s Creative Imagination, Ryerson University"
+  - year: 2007-2008
+    title: Instructor
+    location: University of Western Ontario
+  - year: 2007
+    title: Instructor
+    location: University of Guelph
+  - year: 2006
+    title: Instructor
+    location: University of Toronto at Scarborough
+  - year: 2006
+    title: Instructor
+    location: Queen’s University at Kingston
+  - year: 2004-2006
+    title: Acting Curator
+    location: Casa Loma Majestic Castle, Toronto, Ontario
+  - year: 2004-2006
+    title: Head of Programs
+    location: Jewish Discovery Place Children's Museum, Toronto
+  - year: 2003-2004
+    title: Instructor
+    location: State University of Ukraine, Kiev, Ukraine
+  - year: 2000-2003
+    title: Teaching Assistant
+    location: Queen’s University at Kingston, Kingston, Ontario
+  - year: 2001-2003
+    title: Curator
+    location: Cultural Services, City of Vaughan, Vaughan, Ontario
+  - year: 2002
+    title: Researcher
+    location: Ontario Museum Association, Toronto
+  - year: 2000
+    title: Program Developer
+    location: the Bata Shoe Museum, Toronto
+  - year: 1997-1999
+    title: Teaching Assistant
+    location: York University, Toronto
+  - year: 1997-1999
+    title: Research Assistant
+    location: York University, Toronto
+  - year: 1992-1995
+    title: Researcher
+    location: International Centre for Studies of Jewish Art, Hebrew University, Jerusalem
+
+courses:
+  - Graduate:
+    - code: AVC 6100
+      name: Critical Methods of Research of Visual Culture and Media I
+      location: University of Guelph
+  - Undergraduate:
+    - code: ARTH 378
+      name: Museum Studies
+      location: SUNY Geneseo
+    - code: ARTH 188
+      name: Visual Arts Today
+      location: SUNY Geneseo
+    - code: ARTH 288
+      name: Contemporary Art and Globalization
+      location: SUNY Geneseo
+    - code: ARTH 387
+      name: "Methodology of Art History. Special Topic: Fashion and Politics"
+      location: SUNY Geneseo
+    - code: ARTH 387
+      name: "Methodology of Art History. Special Topic: Gender and Art"
+      location: SUNY Geneseo
+    - code: ARTH 378
+      name: Introduction to Museum Studies
+      location: SUNY Geneseo
+    - code: ARTH 278
+      name: Art of the Global 19th Century
+      location: SUNY Geneseo
+    - code: ARTH 173
+      name: Neo-Classical to Contemporary Art
+      location: SUNY Geneseo
+    - code: ARTH 287
+      name: Modernism and Avant-Garde in Global Perspective
+      location: SUNY Geneseo
+    - code: ARTHSTRY 435
+      name: Museum Exhibitions
+      location: Bloomsburg University
+    - code: ARTHSTRY 235
+      name: Ancient and Medieval Art and Visual Culture
+      location: Bloomsburg University 
+    - code: ARTHSTRY 101
+      name: Introduction to Art
+      location: Bloomsburg University
+    - code: MDSB 62H3
+      name: Understanding Visual Culture
+      location: University of Toronto
+    - code: ARTH 3330
+      name: Museums and Museology
+      location: University of Guelph
+    - code: ARTH 3200
+      name: Introduction to Museum Studies
+      location: University of Guelph
+    - code: ARTH 4320
+      name: "Special Topic: Tourism, Material culture and Globalisation"
+      location: University of Guelph
+    - code: ARTH 4330
+      name: "Curatorial Practice Incubator: Conceptual Art and Textiles since 1960s"
+      location: University of Guelph
+    - code: ARTH 1520
+      name: Introduction to Art and Visual Culture II (1450-1950)
+      location: University of Guelph
+    - code: ARTH 3220
+      name: Nationalism and Identity in Visual Culture and Media
+      location: University of Guelph
+    - code: ARTH 2490
+      name: History of Canadian Visual Culture
+      location: University of Guelph
+    - code: ARTH 1220
+      name: Visual Arts Today
+      location: University of Guelph
+    - code: ARTH 2280
+      name: Modern Architecture
+      location: University of Guelph
+    - code: ARTH 3010
+      name: Contemporary Canadian Culture
+      location: University of Guelph
+    - code: ARTH 2580
+      name: Late Modern Art
+      location: University of Guelph
+    - code: ARTH 4350
+      name: "Special Topics: Film Theory and Culture"
+      location: University of Guelph
+    - code: VISC 2 B07
+      name: History of Modern Art
+      location: Ontario College of Art Design University (OCAD U)
+    - code: VISC 2 B41
+      name: Cross Cultural Issues in Craft
+      location: OCAD U
+    - code: FINE 290
+      name: Perspectives in 20th Century Visual and Material Culture
+      location: University of Waterloo
+    - code: FINE 112
+      name: History of Modern Art
+      location: University and Waterloo
+    - code: VISC 2 B 25
+      name: Modernism in Canada
+      location: OCAD U
+    - code: VAH 385
+      name: Introductions to Museum Studies
+      location: University of Western Ontario
+    - code: VISC 2 B07
+      name: History of Modern Art
+      location: OCAD U
+    - code: VPHB58 H3
+      name: Modern Art and Culture
+      location: University of Toronto at Scarborough
+    - code: ARTH 339
+      name: Canadian Art of the 20th century
+      location: Queen’s University at Kingston
+    - name: History of Design 1800-1950
+      location: State University of Ukraine, Kiev, Ukraine
+  - Distance Education-Online Courses:
+    - code: ARTH 173
+      name: Neo Classical to Contemporary Art
+      location: SUNY Geneseo
+    - code: ARTH 188
+      name: Visual Arts Today
+      location: SUNY Geneseo
+    - code: ARTH 353
+      name: Introduction to Photography
+      location: Nippising University
+    - code: ARTH 145
+      name: Introduction to Art I & II
+      location: Nippising University 

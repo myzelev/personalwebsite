@@ -1,0 +1,14 @@
+---
+layout: page
+title: Fellowships & Awards
+nav_order: 4
+---
+
+<ul class="awards-list">
+  {%- for award in site.data.awards.items -%}
+    <li class="award">
+      <span class="award__name">{{ award.name }}</span>
+      <span class="award__year">{{ award.year }}</span>
+    </li>
+  {%- endfor -%}
+</ul>

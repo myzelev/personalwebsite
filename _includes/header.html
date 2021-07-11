@@ -1,0 +1,17 @@
+<header class="site-header">
+  <a href="/" class="site-title">{{ site.title }}</a>
+  <input type="checkbox" id="nav-toggle">
+  <label id="menu-icon" for="nav-toggle">
+    <svg viewBox="0 0 24 20" fill="currentColor">
+      <rect x="0" y="0" rx="2" ry="2" width="24" height="4" />
+      <rect x="0" y="8" rx="2" ry="2" width="24" height="4" />
+      <rect x="0" y="16" rx="2" ry="2" width="24" height="4" />
+    </svg>
+  </label>
+  <nav class="site-nav">
+    {%- assign pages = site.pages | where_exp:"page","page.title != null" | sort:"nav_order","last" -%}
+    {%- for page in pages -%}
+      <a href="{{ page.url }}" class="nav-link">{{ page.title }}</a>
+    {%- endfor -%}
+  </nav>
+</header>

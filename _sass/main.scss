@@ -1,0 +1,43 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $bodyFont;
+  background-color: $bg-light;
+  color: $text-dark;
+  display: flex;
+  flex-flow: column;
+}
+
+main:not(.home) {
+  flex-grow: 1;
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+@import "header";
+@import "footer";
+@import "page";
+@import "home";
+@import "education";
+@import "experience";
+@import "awards";
+@import "exhibitions";
+@import "affiliations";

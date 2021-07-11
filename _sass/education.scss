@@ -1,0 +1,27 @@
+.education-list {
+  list-style: none;
+  padding: 0;
+
+  .education {
+    margin-bottom: 1rem;
+
+    .header {
+      font-weight: bold;
+      display: block;
+    }
+    &__name {
+      font-size: 1.2em;
+    }
+    &__location {
+      font-style: italic;
+      font-size: 0.9em;
+    }
+    &__description {
+      margin-top: 0.25rem;
+      font-style: 0.9em;
+    }
+  }
+}
+.scholarly-research {
+  padding-left: 1.5rem;
+}

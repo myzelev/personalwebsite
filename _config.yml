@@ -1,0 +1,10 @@
+title: Alla Myzelev
+description: >-
+  description goes here
+
+author:
+  twitter: Jwiggiff
+  name: Josh Friedman
+
+plugins:
+  - jekyll-seo-tag

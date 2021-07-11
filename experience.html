@@ -1,0 +1,34 @@
+---
+layout: page
+title: Teaching Experience
+nav_order: 3
+---
+
+<ol class="experience-list">
+  {%- for experience in site.data.experience.items -%}
+  <li class="experience">
+    <div class="header">
+      <span class="experience__year">{{ experience.year }}</span>
+      |
+      <span class="experience__title">{{ experience.title }}</span>
+    </div>
+    <span class="experience__location">{{ experience.location }}</span>
+  </li>
+  {%- endfor -%}
+</ol>
+
+<h2>Courses Taught</h2>
+<ul class="courses-taught">
+  {%- for category in site.data.experience.courses -%}
+    <h3>{{ category.first.first }}</h3>
+    {%- for course in category.first.last -%}
+      <li class="course">
+        {%- if course.code -%}
+          <span class="course__code">{{ course.code }}</span>
+        {%- endif -%}
+        <span class="course__name">{{ course.name }}</span>
+        <span class="course__location">{{ course.location }}</span>
+      </li>
+    {%- endfor -%}
+  {%- endfor -%}
+</ul>

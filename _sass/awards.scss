@@ -1,0 +1,10 @@
+.awards-list {
+  list-style: none;
+  padding: 0;
+
+  .award {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}

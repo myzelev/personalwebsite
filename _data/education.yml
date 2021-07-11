@@ -1,0 +1,33 @@
+items:
+  - year: 2007
+    degree: Ph.D.
+    school: Queen's University
+    location: Kingston, Ontario
+    description: >-
+      Dissertation: Crafting Collections: Collecting and Revitalizing Peasant Handicraft in Imperial England and Russia 1895-1918. Advisor: Dr. Janice Helland.
+  - year: 1999
+    degree: M.A.
+    school: York University
+    location: Toronto, Ontario
+  - year: 1999
+    degree: Teaching Certificate
+    school: Judaic Studies and Pedagogy, Jewish Board of Education
+    location: Toronto, Ontario
+  - year: 1995
+    degree: B.A. Honours
+    school: Hebrew University
+    location: Jerusalem, Israel
+    description: >-
+      Double Major: History of Art and French Studies
+  - year: 1995
+    degree: B. Ed.
+    school: Hebrew University
+    location: Jerusalem, Israel
+
+research:
+  - Fashion and Gender
+  - Modern and Contemporary art and material culture in Eastern Europe
+  - North American modern and contemporary (late 20th and 21st century) visual and material culture, design and practice
+  - Museums theory and practice
+  - Gender identity and third-wave feminism
+  - Design and Craft theory and research methodology

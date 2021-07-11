@@ -1,0 +1,29 @@
+---
+layout: page
+title: Education
+nav_order: 2
+---
+
+<ol class="education-list">
+  {%- for education in site.data.education.items -%}
+  <li class="education">
+    <div class="header">
+      <span class="education__year">{{ education.year }}</span>
+      |
+      <span class="education__degree">{{ education.degree }}</span>
+    </div>
+    <span class="education__name">{{ education.school }}</span>
+    <span class="education__location">{{ education.location }}</span>
+    {%- if education.description -%}
+    <p class="education__description">{{ education.description }}</p>
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ol>
+
+<h2>Areas of Scholarly Research</h2>
+<ul class="scholarly-research">
+  {%- for research in site.data.education.research -%}
+    <li>{{ research }}</li>
+  {%- endfor -%}
+</ul>

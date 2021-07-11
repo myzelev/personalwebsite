@@ -1,0 +1,58 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+
+  &__content {
+    padding: 2rem;
+
+    .bubble {
+      position: relative;
+      padding: 1rem 2rem;
+      background-color: $bg-dark;
+      border-radius: 8px;
+      font-size: 1.5em;
+      color: $text-light;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-right: 10px solid $bg-dark;
+
+        @include media-query($on-palm) {
+          top: auto;
+          bottom: 100%;
+          right: 50%;
+          transform: translateX(50%);
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid $bg-dark;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+        }
+      }
+    }
+  }
+}
+.about {
+  text-align: center;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    margin: 2rem 4rem;
+  }
+}

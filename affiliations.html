@@ -1,0 +1,25 @@
+---
+layout: page
+title: Certificates & Affiliations
+nav_order: 7
+---
+
+<h2>Certifications</h2>
+<ul class="affiliations">
+  {%- for cert in site.data.certs.certs -%}
+    <li class="affiliation">
+      <span class="affiliation__name">{{ cert }}</span>
+      <p class="affiliation__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, aliquam!</p>
+    </li>
+  {%- endfor -%}
+</ul>
+
+<h2>Affiliations</h2>
+<ul class="affiliations">
+  {%- for affil in site.data.certs.affiliations -%}
+    <li class="affiliation">
+      <span class="affiliation__name">{{ affil }}</span>
+      <p class="affiliation__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam.</p>
+    </li>
+  {%- endfor -%}
+</ul>
