@@ -6,6 +6,7 @@
   background-color: $bg-dark;
   color: $text-light;
   position: relative;
+  z-index: 99;
 
   .site-title {
     color: inherit;
@@ -29,7 +30,7 @@
       &::after {
         content: "";
         display: block;
-        height: 0.25px;
+        height: 1px;
         background-color: $text-light;
         width: 0;
         opacity: 0;
