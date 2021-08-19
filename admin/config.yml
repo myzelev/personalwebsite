@@ -171,14 +171,6 @@ collections:
     editor:
       preview: false
     files:
-      - label: 'Home'
-        name: 'home'
-        file: 'index.html'
-        fields:
-          - label: 'Image'
-            name: 'image'
-            widget: 'image'
-            allow_multiple: false
       - label: 'Education'
         name: 'education'
         file: 'education.html'
