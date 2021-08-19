@@ -227,5 +227,3 @@ collections:
             name: 'image'
             widget: 'image'
             allow_multiple: false
-
-
