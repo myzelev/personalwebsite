@@ -166,3 +166,66 @@ collections:
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
             summary: '{{fields.name}}'
+  - name: 'images'
+    label: 'Images'
+    editor:
+      preview: false
+    files:
+      - label: 'Home'
+        name: 'home'
+        file: 'index.html'
+        fields:
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+            allow_multiple: false
+      - label: 'Education'
+        name: 'education'
+        file: 'education.html'
+        fields:
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+            allow_multiple: false
+      - label: 'Teaching Experience'
+        name: 'experience'
+        file: 'experience.html'
+        fields:
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+            allow_multiple: false
+      - label: 'Fellowships & Awards'
+        name: 'awards'
+        file: 'awards.html'
+        fields:
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+            allow_multiple: false
+      - label: 'Publications'
+        name: 'publications'
+        file: 'publications.html'
+        fields:
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+            allow_multiple: false
+      - label: 'Exhibitions'
+        name: 'exhibitions'
+        file: 'exhibitions.html'
+        fields:
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+            allow_multiple: false
+      - label: 'Certificates & Affiliations'
+        name: 'affiliations'
+        file: 'affiliations.html'
+        fields:
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+            allow_multiple: false
+
+
