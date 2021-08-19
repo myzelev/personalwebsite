@@ -30,10 +30,12 @@ collections:
             name: 'certs'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
+            summary: '{{field.name}}'
           - label: 'Affiliations'
             name: 'affiliations'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
+            summary: '{{field.name}}'
       - label: 'Education'
         name: 'education'
         file: '_data/education.yml'
@@ -41,7 +43,7 @@ collections:
           - label: 'Education'
             name: 'items'
             widget: 'list'
-            summary: '{{fields.degree}} - {{fields.school}}'
+            summary: '{{fields.degree}} @ {{fields.school}}'
             fields:
               - label: 'Year'
                 name: 'year'
@@ -65,6 +67,7 @@ collections:
             name: 'research'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
+            summary: '{{field.name}}'
       - label: 'Exhibitions'
         name: 'exhibitions'
         file: '_data/exhibitions.yml'
@@ -107,6 +110,7 @@ collections:
               - label: 'Graduate'
                 name: 'Graduate'
                 widget: 'list'
+                summary: '{{fields.code}}: {{fields.name}}'
                 fields:
                   - { label: 'Code', name: 'code', widget: 'string' }
                   - { label: 'Name', name: 'name', widget: 'string' }
@@ -114,6 +118,7 @@ collections:
               - label: 'Undergraduate'
                 name: 'Undergraduate'
                 widget: 'list'
+                summary: '{{fields.code}}: {{fields.name}}'
                 fields:
                   - { label: 'Code', name: 'code', widget: 'string' }
                   - { label: 'Name', name: 'name', widget: 'string' }
@@ -121,6 +126,7 @@ collections:
               - label: 'Distance Education-Online Courses'
                 name: 'Distance Education-Online Courses'
                 widget: 'list'
+                summary: '{{fields.code}}: {{fields.name}}'
                 fields:
                   - { label: 'Code', name: 'code', widget: 'string' }
                   - { label: 'Name', name: 'name', widget: 'string' }
@@ -139,19 +145,24 @@ collections:
             name: 'exhibition-catalogues'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
+            summary: '{{field.name}}'
           - label: 'Articles'
             name: 'articles'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
+            summary: '{{field.name}}'
           - label: 'Book Chapters'
             name: 'book-chapters'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
+            summary: '{{field.name}}'
           - label: 'Reviews'
             name: 'reviews'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
+            summary: '{{field.name}}'
           - label: 'Encyclopedias'
             name: 'encyclopedias'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
+            summary: '{{field.name}}'
