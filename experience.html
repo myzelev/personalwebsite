@@ -20,8 +20,8 @@ nav_order: 3
 <h2>Courses Taught</h2>
 <ul class="courses-taught">
   {%- for category in site.data.experience.courses -%}
-    <h3>{{ category.first.first }}</h3>
-    {%- for course in category.first.last -%}
+    <h3>{{ category.first }}</h3>
+    {%- for course in category.last -%}
       <li class="course">
         {%- if course.code -%}
           <span class="course__code">{{ course.code }}</span>

@@ -26,12 +26,14 @@ collections:
         name: 'certs'
         file: '_data/certs.yml'
         fields:
-          - label: 'Certifications'
+          - label: 'Certificates'
             name: 'certs'
             widget: 'list'
+            field: { label: 'Name', name: 'name', widget: 'string' }
           - label: 'Affiliations'
             name: 'affiliations'
             widget: 'list'
+            field: { label: 'Name', name: 'name', widget: 'string' }
       - label: 'Education'
         name: 'education'
         file: '_data/education.yml'
@@ -39,6 +41,7 @@ collections:
           - label: 'Education'
             name: 'items'
             widget: 'list'
+            summary: '{{fields.degree}} - {{fields.school}}'
             fields:
               - label: 'Year'
                 name: 'year'
@@ -58,6 +61,10 @@ collections:
                 name: 'description'
                 widget: 'text'
                 required: false
+          - label: 'Areas of Scholarly Research'
+            name: 'research'
+            widget: 'list'
+            field: { label: 'Name', name: 'name', widget: 'string' }
       - label: 'Exhibitions'
         name: 'exhibitions'
         file: '_data/exhibitions.yml'
@@ -82,6 +89,7 @@ collections:
           - label: 'Teaching Experience'
             name: 'items'
             widget: 'list'
+            summary: '{{fields.title}} @ {{fields.location}}'
             fields:
               - label: 'Year'
                 name: 'year'
@@ -94,8 +102,7 @@ collections:
                 widget: 'string'
           - label: 'Courses Taught'
             name: 'courses'
-            widget: 'list'
-            allow_add: false
+            widget: 'object'
             fields:
               - label: 'Graduate'
                 name: 'Graduate'
@@ -131,15 +138,20 @@ collections:
           - label: 'Exhibition Catalogues'
             name: 'exhibition-catalogues'
             widget: 'list'
+            field: { label: 'Name', name: 'name', widget: 'string' }
           - label: 'Articles'
             name: 'articles'
             widget: 'list'
+            field: { label: 'Name', name: 'name', widget: 'string' }
           - label: 'Book Chapters'
             name: 'book-chapters'
             widget: 'list'
+            field: { label: 'Name', name: 'name', widget: 'string' }
           - label: 'Reviews'
             name: 'reviews'
             widget: 'list'
+            field: { label: 'Name', name: 'name', widget: 'string' }
           - label: 'Encyclopedias'
             name: 'encyclopedias'
             widget: 'list'
+            field: { label: 'Name', name: 'name', widget: 'string' }

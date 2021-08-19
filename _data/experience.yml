@@ -64,11 +64,11 @@ items:
     location: International Centre for Studies of Jewish Art, Hebrew University, Jerusalem
 
 courses:
-  - Graduate:
+  Graduate:
     - code: AVC 6100
       name: Critical Methods of Research of Visual Culture and Media I
       location: University of Guelph
-  - Undergraduate:
+  Undergraduate:
     - code: ARTH 378
       name: Museum Studies
       location: SUNY Geneseo
@@ -173,7 +173,7 @@ courses:
       location: Queen’s University at Kingston
     - name: History of Design 1800-1950
       location: State University of Ukraine, Kiev, Ukraine
-  - Distance Education-Online Courses:
+  Distance Education-Online Courses:
     - code: ARTH 173
       name: Neo Classical to Contemporary Art
       location: SUNY Geneseo
