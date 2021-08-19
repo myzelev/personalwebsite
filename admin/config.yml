@@ -30,12 +30,12 @@ collections:
             name: 'certs'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
-            summary: '{{field.name}}'
+            summary: '{{fields.name}}'
           - label: 'Affiliations'
             name: 'affiliations'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
-            summary: '{{field.name}}'
+            summary: '{{fields.name}}'
       - label: 'Education'
         name: 'education'
         file: '_data/education.yml'
@@ -67,7 +67,7 @@ collections:
             name: 'research'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
-            summary: '{{field.name}}'
+            summary: '{{fields.name}}'
       - label: 'Exhibitions'
         name: 'exhibitions'
         file: '_data/exhibitions.yml'
@@ -145,24 +145,24 @@ collections:
             name: 'exhibition-catalogues'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
-            summary: '{{field.name}}'
+            summary: '{{fields.name}}'
           - label: 'Articles'
             name: 'articles'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
-            summary: '{{field.name}}'
+            summary: '{{fields.name}}'
           - label: 'Book Chapters'
             name: 'book-chapters'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
-            summary: '{{field.name}}'
+            summary: '{{fields.name}}'
           - label: 'Reviews'
             name: 'reviews'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
-            summary: '{{field.name}}'
+            summary: '{{fields.name}}'
           - label: 'Encyclopedias'
             name: 'encyclopedias'
             widget: 'list'
             field: { label: 'Name', name: 'name', widget: 'string' }
-            summary: '{{field.name}}'
+            summary: '{{fields.name}}'
