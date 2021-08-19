@@ -29,7 +29,13 @@ nav_order: 5
 <ul class="publications">
   {%- for item in site.data.publications.books -%}
     <li class="publication">
-      {{ item }}
+      {%- if item.url -%}
+        <a target="_blank" href="{{ item.url | absolute_url }}">
+          {{ item.name }}
+        </a>
+      {% else %}
+        {{ item.name }}
+      {%- endif -%}
     </li>
   {%- endfor -%}
 </ul>

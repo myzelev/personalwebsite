@@ -1,9 +1,13 @@
 books:
-  - "Alla Myzelev, ed., Exhibiting Craft and Design: Transgressing the White Cube Paradigm 1930-present, 978-1-4724-7695-1, Burlington, VT: Ashgate 2017."
-  - "Alla Myzelev, Architecture, Design and Craft in Toronto 1900-1940: Creating Modern Living. ISBN: 978-1-4724-5700-4. Burlington, VT: Ashgate, March 2016."
-  - "Alla Myzelev, Group of Seven and its role in Canadian Culture. Teaching Module. Toronto: Nelson, 2014."
-  - "John Potvin and Alla Myzelev, eds., Fashion, Interior Design and the Contours of Modern Identity, Burlington; Aldershot: Ashgate, 2010."
-  - "John Potvin and Alla Myzelev, eds., Material Culture in Britain, 1750-1920: The Visual Meanings and Pleasures of Collecting, Burlington; Aldershot: Ashgate, 2009."
+  - name: "Alla Myzelev, ed., Exhibiting Craft and Design: Transgressing the White Cube Paradigm 1930-present, 978-1-4724-7695-1, Burlington, VT: Ashgate 2017."
+    url: "https://www.amazon.com/Exhibiting-Craft-Design-Transgressing-1930-Present-ebook/dp/B071KCMLPG/ref=sr_1_2?dchild=1&keywords=alla+myzelev&qid=1625882477&sr=8-2"
+  - name: "Alla Myzelev, Architecture, Design and Craft in Toronto 1900-1940: Creating Modern Living. ISBN: 978-1-4724-5700-4. Burlington, VT: Ashgate, March 2016."
+    url: "https://www.amazon.com/Architecture-Design-Craft-Toronto-1900-1940/dp/B01K92T3C4/ref=sr_1_4?dchild=1&keywords=alla+myzelev&qid=1625882477&sr=8-4"
+  - name: "Alla Myzelev, Group of Seven and its role in Canadian Culture. Teaching Module. Toronto: Nelson, 2014."
+  - name: "John Potvin and Alla Myzelev, eds., Fashion, Interior Design and the Contours of Modern Identity, Burlington; Aldershot: Ashgate, 2010."
+    url: "https://www.amazon.com/Fashion-Interior-Design-Contours-Identity/dp/0754669157/ref=sr_1_2?dchild=1&keywords=alla+myzelev+john+potvin&qid=1625882660&sr=8-2"
+  - name: "John Potvin and Alla Myzelev, eds., Material Culture in Britain, 1750-1920: The Visual Meanings and Pleasures of Collecting, Burlington; Aldershot: Ashgate, 2009."
+    url: "https://www.amazon.com/Material-Cultures-1740-1920-Myzelev-Hardcover/dp/B01181JVN6/ref=sr_1_3?dchild=1&keywords=alla+myzelev&qid=1625882477&sr=8-3"
 
 exhibition-catalogues:
   - "Five Geneseo Landmarks, SUNY OER, 2019."
